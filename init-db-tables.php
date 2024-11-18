@@ -17,7 +17,7 @@ function create_default_tables() {
     // List of tables
     // @params in subarray:
     // table name => string
-    // creating default row indicator => int [0 or 1] (for tables with one row only / f.e. site with form)
+    // creating default row indicator => int [0 or 1] (for tables with one row only)
     $table_names_array = array (
         array( 'random_table_1', 0 ),
         array( 'random_table_2', 1 )
