@@ -1,0 +1,1 @@
+This function creates default database tables for a WordPress theme after loading WordPress. The function uses "wpdb class" to create the required table if it doesn't exist. Function is fired by "init hook".
