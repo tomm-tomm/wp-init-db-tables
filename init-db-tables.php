@@ -71,7 +71,7 @@ function create_default_tables() {
         // Execute create table query
         dbDelta( $sql );
 
-        // Insert default row if required
+        // Insert default row if requested
         if ( $table_names_array[ $i ][ 1 ] == 1 ) {
 
             $wpdb->insert( $table_name,
