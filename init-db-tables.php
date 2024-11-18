@@ -93,3 +93,6 @@ function create_default_tables() {
     }
 
 }
+
+// Create default tables after loading WordPress
+add_action( 'init', 'create_default_tables' );
